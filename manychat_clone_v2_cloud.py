@@ -40,7 +40,7 @@ META_PAGE_ACCESS_TOKEN = os.getenv(
 )
 META_VERIFY_TOKEN = os.getenv("META_VERIFY_TOKEN", "radar_mariana_seguro_2026")
 GRAPH_API_VERSION = os.getenv("GRAPH_API_VERSION", "v21.0")
-GRAPH_BASE_URL = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
+GRAPH_BASE_URL = f"https://graph.instagram.com/{GRAPH_API_VERSION}"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # Catálogo Activo de Productos de Mariana Silva
